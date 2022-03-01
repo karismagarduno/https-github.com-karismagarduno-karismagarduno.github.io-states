@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>States and Capitals</title>
+    <script src = "script.js"></script>
+    <style>
+        .div_demo{
+            background:rgb(27, 114, 100);
+            width: 500px;
+            height: 500px;
+            padding:2px;
+            font-size:2em;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div_demo">
+        <select id="States" onChange="findcapital()">
+            <option>Select State</option>
+            <option value="Washington">Washington</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Flordia">Flordia</option>
+            <option value="Massachusetts">Massachusetts</option>
+            <option value="Oregon">Oregon</option>
+            <option value="Utah">Utah</option>
+            <option value="Arizona">Arizona</option>
+        </select>
+     <p id="capital"></p>
+    </div>
+    
+</body>
+</html>
